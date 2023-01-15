@@ -44,7 +44,7 @@ jobs:
         id: deploy
         uses: ./.github/actions/deploy-s3-docker
         with:
-          bucket: gha-hosting-hosting-demo
+          bucket: ng-movie
           dist-folder: ./dist
       - name: Output information
         run: |
